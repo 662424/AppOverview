@@ -10,7 +10,7 @@ public class AppOverviewController {
 	
 	@RequestMapping(method = RequestMethod.GET)
 	public String sayHello() {
-		return "Hello!";
+		return "Hello World!";
 	}
 
 }
